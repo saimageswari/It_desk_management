@@ -1,0 +1,10 @@
+streamlit>=1.40,<2.0
+SQLAlchemy>=2.0,<3.0
+PyMySQL>=1.1,<2.0
+pandas>=2.2,<3.0
+plotly>=5.24,<7.0
+bcrypt>=4.2,<6.0
+python-dotenv>=1.0,<2.0
+alembic>=1.14,<2.0
+email-validator>=2.2,<3.0
+pytest>=8.3,<9.0
