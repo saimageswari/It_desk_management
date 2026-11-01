@@ -42,7 +42,8 @@ The bootstrap command refuses to create a second administrator. Remove the boots
 Run the app:
 
 ```bash
-streamlit run app.py
+(https://itdeskmanagement-kjrztgba7xopypulgudtql.streamlit.app/
+
 ```
 
 ## Schema migrations
