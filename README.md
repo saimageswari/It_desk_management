@@ -42,7 +42,7 @@ The bootstrap command refuses to create a second administrator. Remove the boots
 Run the app:
 
 ```bash
-(https://itdeskmanagement-kjrztgba7xopypulgudtql.streamlit.app/
+streamlit run app.py
 
 ```
 
@@ -80,3 +80,9 @@ Deploy this repository as a Streamlit application with `streamlit run app.py` an
 ## Security and operational notes
 
 Passwords are bcrypt hashed. Registration always creates an Employee account. Account activation and role permissions are checked on the server side in service entry points. Ticket creation, assignment, status changes, and comments write audit history in the same database transaction. Use a private, TLS protected MySQL connection and unique secrets in production. Uploaded files are not enabled in this release.
+
+
+## demo live
+
+https://itdeskmanagement-kjrztgba7xopypulgudtql.streamlit.app/
+
